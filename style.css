@@ -1,0 +1,142 @@
+*{
+    /* outline: 2px solid red;  */
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header */
+.header{
+    padding: 25px;
+    background:#1f2937;
+    color: #fff;
+}
+nav .nav-menu{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+}
+.nav-menu li a {
+   font-size: 18px;
+   color: #e5e7eb;
+   list-style:none;
+   text-decoration: none;
+   padding: 10px;
+    flex: 1 1 auto;
+}
+.heading{
+    padding: 15px;
+    display: flex;
+}
+.heading-text{
+    flex: 1;
+}
+.heading-text h3{
+    color: #f9faf8;
+    font-size: 58px;
+    font-weight: bolder;
+}
+.heading-text p{
+    font-size:18px;
+    color: #e5e7eb;
+}
+.btn-header{
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 6px 12px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    background:#3882f6;
+    cursor: pointer;
+}
+.heading-image{
+    flex: 1;
+}
+/* .heading-image img{
+    margin-bottom: 10px;
+} */
+/* random info */
+.random-info h3{
+    font-size: 36px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    padding:40px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    /* height: 100px;
+    width: 100px; */
+     gap: 8px; 
+}
+.card-image{
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    flex: 1;
+}
+.card-text{
+    flex-direction:column;
+    align-items: center;
+    flex: 1;
+}
+/* testimony */
+.testimony{
+    background: #e5e7eb;
+    margin-top: 40px;
+    padding: 40px;
+}
+.testimony p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:  #1f2937;
+    text-align: center;
+}
+.testimony p span{
+    font-size: 17px;
+    font-style: none;
+}
+/* call to action */
+.cta{
+    margin-top: 40px;
+    padding: 40px;
+}
+.cta-container{
+    background: #3882f6;
+    justify-content: center;
+    padding: 60px 30px;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+}
+.cta-header{
+    color: #f9faf8;
+    font-size: 18px;
+    flex: 1;
+}
+.cta-btn button{
+    margin-top: 29px;
+    padding: 6px;
+    border: 1px solid #f9faf8;
+    border-radius: 3px;
+    background: #3882f6;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    flex: 1;
+}
+/* footer */
+.footer{
+    background: #1f2937;
+    color: #f9faf8;
+    height: 50px;
+}
+.footer-info{
+    text-align: center;
+    padding: 10px;
+}
